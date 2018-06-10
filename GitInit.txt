@@ -1,0 +1,16 @@
+Git auf Server:
+
+mkdir project.git
+cd project.git
+git --bare init
+
+---------------------------
+Git auf Laptop:
+
+cd myproject
+git init
+git add .
+git commit -m 'initial commit'
+https://github.com/Nimsaja/TestGitProject.git
+git remote add origin sysadmin@ubuntugit:/home/sysadmin/GitProjects/project.git
+git push -u origin master
