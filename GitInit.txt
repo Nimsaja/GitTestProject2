@@ -26,3 +26,6 @@ git remote -v  //check origin
 git remote rm origin //remove origin
 
 git config --global credential.helper wincred
+
+git config --global user.name "Nimsaja"
+git config --list | grep name
