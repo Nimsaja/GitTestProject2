@@ -11,6 +11,9 @@ cd myproject
 git init
 git add .
 git commit -m 'initial commit'
-https://github.com/Nimsaja/TestGitProject.git
-git remote add origin sysadmin@ubuntugit:/home/sysadmin/GitProjects/project.git
+git remote add origin https://github.com/Nimsaja/TestGitProject.git
 git push -u origin master
+
+----------------------------
+git remote -v  //check origin
+git remote rm origin //remove origin
