@@ -5,6 +5,13 @@ cd project.git
 git --bare init
 
 ---------------------------
+Git auf GitHub:
+
+new Project
+nicht Initialisieren!!!!!!
+url kopieren
+---------------------------
+
 Git auf Laptop:
 
 cd myproject
