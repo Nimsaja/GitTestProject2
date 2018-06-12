@@ -1,1 +1,6 @@
 ng build --prod --base-href ./
+
+docker container run --rm -it -v $(pwd):/work -w /work pivotalpa/angular-cli /bin/sh
+ng build --prod --base-href ./
+docker run -d -v $(pwd):/usr/local/apache2/htdocs/ -p 8080:80 httpd
+
