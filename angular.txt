@@ -4,3 +4,4 @@ docker container run --rm -it -v $(pwd):/work -w /work pivotalpa/angular-cli /bi
 ng build --prod --base-href ./
 docker run -d -v $(pwd):/usr/local/apache2/htdocs/ -p 8080:80 httpd
 
+ng serve --host 0.0.0.0 --disable-host-check
