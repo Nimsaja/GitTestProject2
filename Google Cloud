@@ -1,0 +1,5 @@
+sudo -i npm install -g @angular/cli
+
+ng build --prod
+
+gcloud app deploy
