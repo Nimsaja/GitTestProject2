@@ -3,3 +3,9 @@ sudo -i npm install -g @angular/cli
 ng build --prod
 
 gcloud app deploy
+
+************************************
+
+gcloud init
+[gcloud app create]
+gcloud app deploy
