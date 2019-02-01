@@ -4,6 +4,8 @@ ng build --prod
 
 gcloud app deploy
 
+gcloud app deploy server/app.yaml server/cron.yaml
+
 ************************************
 
 gcloud init
