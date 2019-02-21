@@ -11,3 +11,8 @@ gcloud app deploy server/app.yaml server/cron.yaml
 gcloud init
 [gcloud app create]
 gcloud app deploy
+
+************************************
+Cloud Database emulator (don't start server.go!!!!)
+
+dev_appserver.py --enable_console --port=8080 server/app.yaml
